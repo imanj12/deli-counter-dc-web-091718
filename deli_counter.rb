@@ -18,3 +18,4 @@ def take_a_number(katz_deli, name)
   line_spot = katz_deli.index(name) + 1
   puts "Welcome, #{name}. You are number #{line_spot} in line."
 end
+
