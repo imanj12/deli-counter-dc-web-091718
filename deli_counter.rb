@@ -9,5 +9,6 @@ def line(katz_deli)
       line_spot = i + 1
       line += "#{line_spot}. #{obj} "
     end
+    puts line
   end
 end
