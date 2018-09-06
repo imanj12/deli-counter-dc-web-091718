@@ -7,7 +7,7 @@ def line(katz_deli)
     line = "The line is currently: "
     katz_deli.each_with_index do |obj, i|
       line_spot = i + 1
-      
+      line += "#{line_spot}. #{obj} "
     end
   end
 end
