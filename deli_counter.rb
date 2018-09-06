@@ -19,6 +19,7 @@ def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{line_spot} in line."
 end
 
-def now_serving()
-  
+def now_serving(katz_deli)
+  if katz_deli.length == 0
+    
 end
